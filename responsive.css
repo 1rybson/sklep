@@ -27,7 +27,6 @@
         height: 900px;
         object-fit: cover;
     }
-    
 }
 
 @media screen and (max-width: 1366px){
@@ -43,7 +42,14 @@
         height: 500px;
         object-fit: cover;
     }
-    
+
+    .informacje{
+        margin-top: 50px;
+    }
+
+    .puste{
+        margin-top: 50px;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -59,11 +65,14 @@
         height: 500px;
         object-fit: cover;
     }
-    
+
+    .stopka-mobile{
+        display: block;
+    }
 }
 
 @media screen and (max-width: 425px) {
-    .logo, .stopka-pc, .news1, .news2, .fotka2{
+    .logo, .stopka-pc, .news1, .news2, .fotka2, .puste{
         display: none;
     }
 
@@ -79,5 +88,32 @@
         height: 500px;
         object-fit: cover;
     }
-    
+
+    .stopka-mobile{
+        display: block;
+    }
+
+    .banerYatsuri{
+        display: none;
+    }
+
+    #produkt{
+        width: 325px;
+        height: 400px;
+    }
+
+    .produkt{
+        display: block;
+    }
+
+    .informacje{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .itemek{
+        width: 100%;
+        margin-left: 30px;
+    }
+
 }
