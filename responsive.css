@@ -1,9 +1,83 @@
+@media screen and (max-width: 2560px){
+    .stopka-mobile{
+        display: none;
+    }
+
+    .carousel-item{
+        height: 1200px;
+    }
+    
+    .carousel-item img{
+        height: 1200px;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (max-width: 1920px){
+    .stopka-mobile{
+        display: none;
+    }
+
+    .carousel-item{
+        height: 900px;
+    }
+    
+    .carousel-item img{
+        height: 900px;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (max-width: 1366px){
+    .stopka-mobile{
+        display: none;
+    }
+
+    .carousel-item{
+        height: 500px;
+    }
+    
+    .carousel-item img{
+        height: 500px;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+    .stopka-pc, .fotka2{
+        display: none;
+    }
+
+    .carousel-item{
+        height: 500px;
+    }
+    
+    .carousel-item img{
+        height: 500px;
+        object-fit: cover;
+    }
+    
+}
+
 @media screen and (max-width: 425px) {
-    .logo{
+    .logo, .stopka-pc, .news1, .news2, .fotka2{
         display: none;
     }
 
     .logoLeft{
         display: block;
     }
-  }
+
+    .carousel-item{
+        height: 500px;
+    }
+    
+    .carousel-item img{
+        height: 500px;
+        object-fit: cover;
+    }
+    
+}

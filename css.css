@@ -25,16 +25,31 @@ a:hover{
     background-color: white;
 }
 
-.carousel-item{
-    height: 500px;
-}
-
-.carousel-item img{
-    height: 500px;
-    object-fit: cover;
-}
-
 .logoLeft{
     display: none;
     color: black;
+}
+
+.produkt a:hover{
+    background-color: gray;
+    opacity: 80%;
+}
+
+.input-group-text, .form-control{
+    background-color: rgb(230, 228, 228);
+    color: black;
+    border-color: rgb(0, 0, 0);
+}
+
+.form-check-input{
+    border-color: black;
+}
+
+.stopka-mobile, .stopka-pc{
+    color: black;
+    background-color: rgb(230, 228, 228);
+}
+
+.kategorie{
+    background-color: rgb(230, 228, 228);
 }
