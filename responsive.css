@@ -11,6 +11,11 @@
         height: 1200px;
         object-fit: cover;
     }
+
+    .zdjecieProduktu{
+        width: 650px;
+        height: 800px;
+    }
     
 }
 
@@ -26,6 +31,14 @@
     .carousel-item img{
         height: 900px;
         object-fit: cover;
+    }
+
+    .zdjecieProduktu{
+        /* width: 599px; */
+        /* height: 738px; */
+        max-width: 100%;
+        height: auto;
+
     }
 }
 
@@ -50,6 +63,16 @@
     .puste{
         margin-top: 50px;
     }
+
+    .zdjecieProduktu{
+        width: 325px;
+        height: 400px;
+    }
+
+    #produkt{
+        max-width: 65.3%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -68,6 +91,13 @@
 
     .stopka-mobile{
         display: block;
+    }
+
+    .zdjecieProduktu{
+        width: auto;
+        height: auto;
+        max-width: 85%;
+        max-height: 85%;
     }
 }
 
@@ -91,6 +121,7 @@
 
     .stopka-mobile{
         display: block;
+        font-size: 0.8em;
     }
 
     .banerYatsuri{
@@ -98,22 +129,38 @@
     }
 
     #produkt{
-        width: 325px;
-        height: 400px;
+        /* width: 325px;
+        height: 400px; */
+        width: 100%;
+        height: 100%;
     }
 
     .produkt{
         display: block;
+        width: 100%;
     }
 
     .informacje{
         width: 100%;
         padding: 30px;
+        padding-top: 0px;
     }
 
     .itemek{
         width: 100%;
         margin-left: 30px;
+    }
+
+    .zdjecieProduktu{
+        width: 325px;
+        height: 400px;
+        max-width: 325px;
+        max-height: 400px;
+        
+    }
+
+    .katalog{
+        display: block;
     }
 
 }
