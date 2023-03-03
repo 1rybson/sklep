@@ -17,6 +17,10 @@
         height: 800px;
     }
     
+    .kategorieFont{
+        font-size: 1em;
+    }
+    
 }
 
 @media screen and (max-width: 1920px){
@@ -39,6 +43,10 @@
         max-width: 100%;
         height: auto;
 
+    }
+
+    .kategorieFont{
+        font-size: 1em;
     }
 }
 
@@ -73,6 +81,10 @@
         max-width: 65.3%;
         height: auto;
     }
+
+    .kategorieFont{
+        font-size: 1em;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -98,6 +110,10 @@
         height: auto;
         max-width: 85%;
         max-height: 85%;
+    }
+
+    .kategorieFont{
+        font-size: 1em;
     }
 }
 
@@ -163,4 +179,7 @@
         display: block;
     }
 
+    .kategorieFont{
+        font-size: 0.8em;
+    }
 }
