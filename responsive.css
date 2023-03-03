@@ -24,6 +24,15 @@
     .informacje{
         margin-top: 100px;
     }
+
+    .yatsuriLogo{
+        width: 150px;
+        height: auto;
+    }
+
+    .cart{
+        margin-top: 25px;
+    }
     
 }
 
@@ -51,6 +60,15 @@
 
     .kategorieFont{
         font-size: 1em;
+    }
+
+    .yatsuriLogo{
+        width: 150px;
+        height: auto;
+    }
+
+    .cart{
+        margin-top: 25px;
     }
 }
 
@@ -89,6 +107,15 @@
     .kategorieFont{
         font-size: 1em;
     }
+
+    .yatsuriLogo{
+        width: 150px;
+        height: auto;
+    }
+
+    .cart{
+        margin-top: 25px;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -119,6 +146,15 @@
     .kategorieFont{
         font-size: 1em;
     }
+
+    .yatsuriLogo{
+        width: 150px;
+        height: auto;
+    }
+
+    .cart{
+        margin-top: 25px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -128,6 +164,11 @@
 
     .logoLeft{
         display: block;
+    }
+
+    .yatsuriLogo{
+        width: 100px;
+        height: auto;
     }
 
     .carousel-item{
@@ -185,5 +226,9 @@
 
     .kategorieFont{
         font-size: 0.7em;
+    }
+
+    .cart{
+        margin-top: 14px;
     }
 }
