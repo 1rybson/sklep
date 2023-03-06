@@ -51,8 +51,6 @@
     }
 
     .zdjecieProduktu{
-        /* width: 599px; */
-        /* height: 738px; */
         max-width: 100%;
         height: auto;
 
@@ -190,8 +188,6 @@
     }
 
     #produkt{
-        /* width: 325px;
-        height: 400px; */
         width: 100%;
         height: 100%;
     }
