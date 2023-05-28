@@ -3,6 +3,23 @@ html, body{
     height: 100%;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    
+    background: #dddddd;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #3b3b3b;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+}
+
 #lista li{
     display: inline;
     font-size: 14px;
